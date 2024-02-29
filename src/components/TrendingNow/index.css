@@ -1,0 +1,43 @@
+.trending-now-container {
+  width: 85%;
+  font-family: 'HK Grotesk';
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.trending-now-failure-view {
+  height: 150px;
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .trending-now-failure-view {
+    height: 200px;
+  }
+}
+
+.trending-now-loader-container {
+  height: 120px;
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .trending-now-loader-container {
+    height: 200px;
+  }
+}
+
+.alert-image-icon {
+  height: 25px;
+  width: 25px;
+}
